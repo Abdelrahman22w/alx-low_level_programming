@@ -1,8 +1,3 @@
-/*
- * File: 100-times_table.c
- * Auth: Brennan D Baraban
- */
-
 #include "holberton.h"
 
 /**
@@ -47,3 +42,4 @@ void print_times_table(int n)
 		}
 	}
 }
+
