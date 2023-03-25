@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1679752937,,"wq"
+|2,0,1679755720,,"wq"
 :Wq
 |2,0,1678395568,,"Wq"
 :qw
@@ -35,34 +35,46 @@
 # Registers:
 
 # File marks:
-'0  2  17  ~/alx-low_level_programming/0x00-hello_world/0-preprocessor
-|4,48,2,17,1679752937,"~/alx-low_level_programming/0x00-hello_world/0-preprocessor"
-'1  1  6  ~/alx-low_level_programming/0x00-hello_world/0-preprocessor
-|4,49,1,6,1679752687,"~/alx-low_level_programming/0x00-hello_world/0-preprocessor"
-'2  3  0  ~/alx-low_level_programming/0x00-hello_world/0-preprocessor
-|4,50,3,0,1679752687,"~/alx-low_level_programming/0x00-hello_world/0-preprocessor"
-'3  1  0  /alx-system_engineering-devops/.git/COMMIT_EDITMSG
-|4,51,1,0,1678399938,"/alx-system_engineering-devops/.git/COMMIT_EDITMSG"
-'4  2  7  /alx-system_engineering-devops/0-iam_betty
-|4,52,2,7,1678395570,"/alx-system_engineering-devops/0-iam_betty"
-'5  2  28  /alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars
-|4,53,2,28,1678395289,"/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars"
-'6  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,54,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
-'7  2  28  /alx-system_engineering-devops/0x01-shell_permissions/101-symbolic_link_permissions
-|4,55,2,28,1678395107,"/alx-system_engineering-devops/0x01-shell_permissions/101-symbolic_link_permissions"
-'8  2  20  /alx-system_engineering-devops/0x01-shell_permissions/100-change_owner_and_group
-|4,56,2,20,1678395022,"/alx-system_engineering-devops/0x01-shell_permissions/100-change_owner_and_group"
-'9  2  18  /alx-system_engineering-devops/0x01-shell_permissions/13-change_group
-|4,57,2,18,1678394933,"/alx-system_engineering-devops/0x01-shell_permissions/13-change_group"
+'0  20  3  ~/Betty/betty
+|4,48,20,3,1679755720,"~/Betty/betty"
+'1  2  17  ~/alx-low_level_programming/0x00-hello_world/0-preprocessor
+|4,49,2,17,1679752937,"~/alx-low_level_programming/0x00-hello_world/0-preprocessor"
+'2  1  6  ~/alx-low_level_programming/0x00-hello_world/0-preprocessor
+|4,50,1,6,1679752687,"~/alx-low_level_programming/0x00-hello_world/0-preprocessor"
+'3  3  0  ~/alx-low_level_programming/0x00-hello_world/0-preprocessor
+|4,51,3,0,1679752687,"~/alx-low_level_programming/0x00-hello_world/0-preprocessor"
+'4  1  0  /alx-system_engineering-devops/.git/COMMIT_EDITMSG
+|4,52,1,0,1678399938,"/alx-system_engineering-devops/.git/COMMIT_EDITMSG"
+'5  2  7  /alx-system_engineering-devops/0-iam_betty
+|4,53,2,7,1678395570,"/alx-system_engineering-devops/0-iam_betty"
+'6  2  28  /alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars
+|4,54,2,28,1678395289,"/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars"
+'7  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
+|4,55,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
+'8  2  28  /alx-system_engineering-devops/0x01-shell_permissions/101-symbolic_link_permissions
+|4,56,2,28,1678395107,"/alx-system_engineering-devops/0x01-shell_permissions/101-symbolic_link_permissions"
+'9  2  20  /alx-system_engineering-devops/0x01-shell_permissions/100-change_owner_and_group
+|4,57,2,20,1678395022,"/alx-system_engineering-devops/0x01-shell_permissions/100-change_owner_and_group"
 
 # Jumplist (newest first):
+-'  20  3  ~/Betty/betty
+|4,39,20,3,1679755720,"~/Betty/betty"
+-'  1  0  ~/Betty/betty
+|4,39,1,0,1679755683,"~/Betty/betty"
+-'  2  17  ~/alx-low_level_programming/0x00-hello_world/0-preprocessor
+|4,39,2,17,1679752937,"~/alx-low_level_programming/0x00-hello_world/0-preprocessor"
 -'  2  17  ~/alx-low_level_programming/0x00-hello_world/0-preprocessor
 |4,39,2,17,1679752937,"~/alx-low_level_programming/0x00-hello_world/0-preprocessor"
 -'  1  6  ~/alx-low_level_programming/0x00-hello_world/0-preprocessor
 |4,39,1,6,1679752762,"~/alx-low_level_programming/0x00-hello_world/0-preprocessor"
+-'  1  6  ~/alx-low_level_programming/0x00-hello_world/0-preprocessor
+|4,39,1,6,1679752762,"~/alx-low_level_programming/0x00-hello_world/0-preprocessor"
 -'  3  0  ~/alx-low_level_programming/0x00-hello_world/0-preprocessor
 |4,39,3,0,1679752687,"~/alx-low_level_programming/0x00-hello_world/0-preprocessor"
+-'  3  0  ~/alx-low_level_programming/0x00-hello_world/0-preprocessor
+|4,39,3,0,1679752687,"~/alx-low_level_programming/0x00-hello_world/0-preprocessor"
+-'  1  0  ~/alx-low_level_programming/0x00-hello_world/0-preprocessor
+|4,39,1,0,1679752561,"~/alx-low_level_programming/0x00-hello_world/0-preprocessor"
 -'  1  0  ~/alx-low_level_programming/0x00-hello_world/0-preprocessor
 |4,39,1,0,1679752561,"~/alx-low_level_programming/0x00-hello_world/0-preprocessor"
 -'  1  0  /alx-system_engineering-devops/.git/COMMIT_EDITMSG
@@ -73,6 +85,14 @@
 |4,39,1,0,1678399938,"/alx-system_engineering-devops/.git/COMMIT_EDITMSG"
 -'  1  0  /alx-system_engineering-devops/.git/COMMIT_EDITMSG
 |4,39,1,0,1678399938,"/alx-system_engineering-devops/.git/COMMIT_EDITMSG"
+-'  1  0  /alx-system_engineering-devops/.git/COMMIT_EDITMSG
+|4,39,1,0,1678399938,"/alx-system_engineering-devops/.git/COMMIT_EDITMSG"
+-'  1  0  /alx-system_engineering-devops/.git/COMMIT_EDITMSG
+|4,39,1,0,1678399938,"/alx-system_engineering-devops/.git/COMMIT_EDITMSG"
+-'  1  0  /alx-system_engineering-devops/.git/COMMIT_EDITMSG
+|4,39,1,0,1678399938,"/alx-system_engineering-devops/.git/COMMIT_EDITMSG"
+-'  1  0  /alx-system_engineering-devops/.git/COMMIT_EDITMSG
+|4,39,1,0,1678399938,"/alx-system_engineering-devops/.git/COMMIT_EDITMSG"
 -'  2  7  /alx-system_engineering-devops/0-iam_betty
 |4,39,2,7,1678395570,"/alx-system_engineering-devops/0-iam_betty"
 -'  2  7  /alx-system_engineering-devops/0-iam_betty
@@ -89,6 +109,38 @@
 |4,39,2,7,1678395570,"/alx-system_engineering-devops/0-iam_betty"
 -'  2  7  /alx-system_engineering-devops/0-iam_betty
 |4,39,2,7,1678395570,"/alx-system_engineering-devops/0-iam_betty"
+-'  2  7  /alx-system_engineering-devops/0-iam_betty
+|4,39,2,7,1678395570,"/alx-system_engineering-devops/0-iam_betty"
+-'  2  7  /alx-system_engineering-devops/0-iam_betty
+|4,39,2,7,1678395570,"/alx-system_engineering-devops/0-iam_betty"
+-'  2  7  /alx-system_engineering-devops/0-iam_betty
+|4,39,2,7,1678395570,"/alx-system_engineering-devops/0-iam_betty"
+-'  2  7  /alx-system_engineering-devops/0-iam_betty
+|4,39,2,7,1678395570,"/alx-system_engineering-devops/0-iam_betty"
+-'  2  7  /alx-system_engineering-devops/0-iam_betty
+|4,39,2,7,1678395570,"/alx-system_engineering-devops/0-iam_betty"
+-'  2  7  /alx-system_engineering-devops/0-iam_betty
+|4,39,2,7,1678395570,"/alx-system_engineering-devops/0-iam_betty"
+-'  2  7  /alx-system_engineering-devops/0-iam_betty
+|4,39,2,7,1678395570,"/alx-system_engineering-devops/0-iam_betty"
+-'  2  7  /alx-system_engineering-devops/0-iam_betty
+|4,39,2,7,1678395570,"/alx-system_engineering-devops/0-iam_betty"
+-'  3  7  /alx-system_engineering-devops/0-iam_betty
+|4,39,3,7,1678395561,"/alx-system_engineering-devops/0-iam_betty"
+-'  3  7  /alx-system_engineering-devops/0-iam_betty
+|4,39,3,7,1678395561,"/alx-system_engineering-devops/0-iam_betty"
+-'  3  7  /alx-system_engineering-devops/0-iam_betty
+|4,39,3,7,1678395561,"/alx-system_engineering-devops/0-iam_betty"
+-'  3  7  /alx-system_engineering-devops/0-iam_betty
+|4,39,3,7,1678395561,"/alx-system_engineering-devops/0-iam_betty"
+-'  3  7  /alx-system_engineering-devops/0-iam_betty
+|4,39,3,7,1678395561,"/alx-system_engineering-devops/0-iam_betty"
+-'  3  7  /alx-system_engineering-devops/0-iam_betty
+|4,39,3,7,1678395561,"/alx-system_engineering-devops/0-iam_betty"
+-'  3  7  /alx-system_engineering-devops/0-iam_betty
+|4,39,3,7,1678395561,"/alx-system_engineering-devops/0-iam_betty"
+-'  3  7  /alx-system_engineering-devops/0-iam_betty
+|4,39,3,7,1678395561,"/alx-system_engineering-devops/0-iam_betty"
 -'  3  7  /alx-system_engineering-devops/0-iam_betty
 |4,39,3,7,1678395561,"/alx-system_engineering-devops/0-iam_betty"
 -'  3  7  /alx-system_engineering-devops/0-iam_betty
@@ -137,6 +189,38 @@
 |4,39,2,28,1678395289,"/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars"
 -'  2  28  /alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars
 |4,39,2,28,1678395289,"/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars"
+-'  2  28  /alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars
+|4,39,2,28,1678395289,"/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars"
+-'  2  28  /alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars
+|4,39,2,28,1678395289,"/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars"
+-'  2  28  /alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars
+|4,39,2,28,1678395289,"/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars"
+-'  2  28  /alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars
+|4,39,2,28,1678395289,"/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars"
+-'  2  28  /alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars
+|4,39,2,28,1678395289,"/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars"
+-'  2  28  /alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars
+|4,39,2,28,1678395289,"/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars"
+-'  2  28  /alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars
+|4,39,2,28,1678395289,"/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars"
+-'  2  28  /alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars
+|4,39,2,28,1678395289,"/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars"
+-'  2  28  /alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars
+|4,39,2,28,1678395289,"/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars"
+-'  2  28  /alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars
+|4,39,2,28,1678395289,"/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars"
+-'  2  28  /alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars
+|4,39,2,28,1678395289,"/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars"
+-'  2  28  /alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars
+|4,39,2,28,1678395289,"/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars"
+-'  2  28  /alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars
+|4,39,2,28,1678395289,"/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars"
+-'  2  28  /alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars
+|4,39,2,28,1678395289,"/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars"
+-'  2  28  /alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars
+|4,39,2,28,1678395289,"/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars"
+-'  2  28  /alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars
+|4,39,2,28,1678395289,"/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars"
 -'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars
 |4,39,1,0,1678395228,"/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars"
 -'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars
@@ -169,96 +253,19 @@
 |4,39,1,0,1678395228,"/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars"
 -'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars
 |4,39,1,0,1678395228,"/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  2  22  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,2,22,1678395218,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,1,0,1678395118,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,1,0,1678395118,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,1,0,1678395118,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,1,0,1678395118,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,1,0,1678395118,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,1,0,1678395118,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,1,0,1678395118,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,1,0,1678395118,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,1,0,1678395118,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,1,0,1678395118,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,1,0,1678395118,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/102-if_only
-|4,39,1,0,1678395118,"/alx-system_engineering-devops/0x01-shell_permissions/102-if_only"
+-'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars
+|4,39,1,0,1678395228,"/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars"
+-'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars
+|4,39,1,0,1678395228,"/alx-system_engineering-devops/0x01-shell_permissions/103-Star_Wars"
 
 # History of marks within files (newest to oldest):
+
+> ~/Betty/betty
+	*	1679755718	0
+	"	20	3
+	^	20	4
+	.	20	3
+	+	20	3
 
 > ~/alx-low_level_programming/0x00-hello_world/0-preprocessor
 	*	1679752935	0
