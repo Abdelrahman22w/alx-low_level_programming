@@ -26,7 +26,7 @@ int prod, mult, num;
 			} else if (prod <= 99 && prod >= 10)
 				_putchar ((prod / 10) + 48);
 			_putchar ((prod % 10) + 48);
-		}
+			}
 		_putchar('\n');
 		}
 	}
