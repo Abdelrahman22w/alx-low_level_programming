@@ -20,7 +20,7 @@ int sqrt_a(int a, int b)
 
 /**
  * _sqrt_recursion - print square root of a number
- * @n: input 
+ * @n: input
  * Return: 0
  */
 int _sqrt_recursion(int n)
