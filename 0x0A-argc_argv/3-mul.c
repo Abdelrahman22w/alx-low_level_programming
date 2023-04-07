@@ -1,26 +1,27 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
- * main - prints the multiplication of two numbers
+ * main - Main Entry
  * @argc: input
  * @argv: input
- * @res: result of multiplication
- * Return: Always 0 (Success)
+ * Return: Always 0 Success
  */
 int main(int argc, char *argv[])
 {
-    int res = 1;
+	int i, res = 1;
+
 	if (argc != 3)
 	{
-	    printf("%d/n", Error);
-	    return (1);
+		printf("%s\n", "Error");
+		return (1);
 	}
 	else
 	{
-	    for (int i = 0; i < 2; i++)
-	    {
-	     res *= atoi(argv[i]);
-	    }
-	    printf("%d\n", res);
+		for (i = 1; i < argc; i++)
+		{
+			res *= atoi(argv[i]);
+		}
+		printf("%d\n", res);
 	}
-	retrun (0);
+	return (0);
 }
