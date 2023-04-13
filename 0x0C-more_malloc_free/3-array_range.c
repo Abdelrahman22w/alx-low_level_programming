@@ -1,22 +1,26 @@
 #include "main.h"
+#include <stdlib.h>
+
 /**
- * array_range - the range of the array (size)
- * @min: minimum value of input
- * @max: maximum value of input
- * Return: array of integers
+ * array_range - Main Entry
+ * @min: input
+ * @max: input
+ * Return: 0
  */
 int *array_range(int min, int max)
 {
-	int len, i;
-	int *ptr;
+	int i, l;
+	int *a;
 
 	if (min > max)
 		return (NULL);
-	len = max - min + 1;
-	ptr = malloc(sizeof(int) * len);
-	if (ptr == 0)
+	l = max - min + 1;
+	a = malloc(sizeof(int) * l);
+	if (a == NULL)
 		return (NULL);
-	for (i = 0; i < len; i++)
-		ptr[i] = min++;
-	retrun(ptr);
+	for (i = 0; i < l; i++, min++)
+	{
+		a[i] = min;
+	}
+	return (a);
 }
