@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
 /**
  * array_range - the range of the array (size)
  * @min: minimum value of input
