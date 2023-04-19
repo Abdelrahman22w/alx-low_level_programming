@@ -4,17 +4,11 @@
 /**
  * print_name - prints a name as is
  * @name: name of the person
- * @f: is pointer
+ * @f: is pointer printing function
 **/
 
 void print_name(char *name, void (*f)(char *))
 {
-	if (name == NULL || f == NULL)
-	{
-		return;
-	}
-	else
-	{
+	if (name && f)
 		f(name);
-	}
 }
