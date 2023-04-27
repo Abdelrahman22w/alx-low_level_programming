@@ -1,12 +1,10 @@
-#include <stdlib.h>
-#include <string.h>
 #include "lists.h"
 /**
- * add_node - adds a new node at the beginning of a linked list
- * @head: double pointer to list
- * @str: string added in the node
+ * add_node - add a new node at the beginning of the linked list
+ * @head: double pointer to the list
+ * @str: sting added to the node
  *
- * Return: the address of the new element
+ * retrun: the address of the new string
  */
 list_t *add_node(list_t **head, const char *str)
 {
@@ -29,4 +27,3 @@ list_t *add_node(list_t **head, const char *str)
 	*head = new_head;
 	return (new_head);
 }
-
