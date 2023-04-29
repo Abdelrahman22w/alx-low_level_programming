@@ -1,22 +1,22 @@
 #include "lists.h"
 
 /**
- * free_list2 - Frees a linked list.
- * @head: Pointer to the head of the list.
+ * free_listp - frees a linked list
+ * @head: head of a list.
  *
- * Return: Nothing.
+ * Return: no return.
  */
-void free_list2(listp_t **head)
+void free_listp(listp_t **head)
 {
 	listp_t *temp;
-	listp_t *current;
+	listp_t *curr;
 
 	if (head != NULL)
 	{
-		current = *head;
-		while ((temp = current) != NULL)
+		curr = *head;
+		while ((temp = curr) != NULL)
 		{
-			current = current->next;
+			curr = curr->next;
 			free(temp);
 		}
 		*head = NULL;
@@ -24,49 +24,50 @@ void free_list2(listp_t **head)
 }
 
 /**
- * free_listint_safe2 - Frees a linked list, even if it has a loop.
- * @head: Pointer to the head of the list.
+ * free_listint_safe - frees a linked list safely.
+ * @h: head of a list.
  *
- * Return: The size of the list that was freed.
+ * Return: the size of the list that was freed.
  */
-size_t free_listint_safe2(listint_t **head)
+size_t free_listint_safe(listint_t **h)
 {
-	size_t nodes_count = 0;
-	listp_t *nodes_stack, *new_node, *temp_node;
-	listint_t *current_node;
+	size_t nnodes = 0;
+	listp_t *hptr, *newp, *addp;
+	listint_t *curr;
 
-	nodes_stack = NULL;
-
-	while (*head != NULL)
+	hptr = NULL;
+	while (*h != NULL)
 	{
-		new_node = malloc(sizeof(listp_t));
-		if (new_node == NULL)
+		newp = malloc(sizeof(listp_t));
+
+		if (newp == NULL)
 			exit(98);
 
-		new_node->p = (void *)*head;
-		new_node->next = nodes_stack;
-		nodes_stack = new_node;
+		newp->p = (void *)*h;
+		newp->next = hptr;
+		hptr = newp;
 
-		temp_node = nodes_stack;
-		while (temp_node->next != NULL)
+		addp = hptr;
+
+		while (addp->next != NULL)
 		{
-			temp_node = temp_node->next;
-			if (*head == temp_node->p)
+			addp = addp->next;
+			if (*h == addp->p)
 			{
-				*head = NULL;
-				free_list2(&nodes_stack);
-				return (nodes_count);
+				*h = NULL;
+				free_listp(&hptr);
+				return (nnodes);
 			}
 		}
 
-		current_node = *head;
-		*head = (*head)->next;
-		free(current_node);
-		nodes_count++;
+		curr = *h;
+		*h = (*h)->next;
+		free(curr);
+		nnodes++;
 	}
 
-	*head = NULL;
-	free_list2(&nodes_stack);
-	return (nodes_count);
+	*h = NULL;
+	free_listp(&hptr);
+	return (nnodes);
 }
 
